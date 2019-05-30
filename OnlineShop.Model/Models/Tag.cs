@@ -2,7 +2,7 @@
 {
     public class Tag
     {
-        public string ID { set; get; }
+        public int Id { set; get; }
 
         public string Name { set; get; }
 

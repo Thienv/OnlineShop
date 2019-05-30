@@ -4,7 +4,7 @@ namespace OnlineShop.Model.Models
 {
     public class VisitorStatistic
     {
-        public Guid ID { set; get; }
+        public int Id { set; get; }
 
         public DateTime VisitedDate { set; get; }
 

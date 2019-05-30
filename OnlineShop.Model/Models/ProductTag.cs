@@ -2,8 +2,8 @@
 {
     public class ProductTag
     {
-        public int ProductID { set; get; }
+        public int ProductId { set; get; }
 
-        public string TagID { set; get; }
+        public string TagId { set; get; }
     }
 }

@@ -2,7 +2,7 @@
 {
     public class SystemConfig
     {
-        public int ID { set; get; }
+        public int Id { set; get; }
 
         public string Code { set; get; }
 

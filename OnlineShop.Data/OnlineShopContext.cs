@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using OnlineShop.Data.Configuration;
 using OnlineShop.Model.Models;
 
 namespace OnlineShop.Data
@@ -17,7 +18,7 @@ namespace OnlineShop.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
+            modelBuilder.ApplyConfiguration(new FooterEC());
         }
         #region
         public DbSet<Footer> Footers { get; set; }

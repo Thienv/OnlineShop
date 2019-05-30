@@ -4,7 +4,7 @@ namespace OnlineShop.Model.Models
 {
     public class Order
     {
-        public int ID { set; get; }
+        public int Id { set; get; }
 
         public string CustomerName { set; get; }
         public string CustomerAddress { set; get; }

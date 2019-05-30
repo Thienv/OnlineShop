@@ -4,7 +4,7 @@ namespace OnlineShop.Model.Models
 {
     public class Page : Auditable
     {
-        public int ID { set; get; }
+        public int Id { set; get; }
 
         public string Name { set; get; }
 
