@@ -6,7 +6,7 @@ namespace OnlineShop.Data
     public class OnlineShopContext : DbContext
     {
 
-        public OnlineShopContext() 
+        public OnlineShopContext()
         {
 
         }
