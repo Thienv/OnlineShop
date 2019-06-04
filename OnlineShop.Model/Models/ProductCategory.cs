@@ -4,7 +4,7 @@ namespace OnlineShop.Model.Models
 {
     public class ProductCategory : Auditable
     {
-        public int Id { set; get; }
+        public int ID { set; get; }
 
         public string Name { set; get; }
 

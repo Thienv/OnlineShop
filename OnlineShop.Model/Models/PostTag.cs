@@ -2,9 +2,9 @@
 {
     public class PostTag
     {
-        public int PostId { set; get; }
+        public int PostID { set; get; }
 
-        public string TagId { set; get; }
+        public string TagID { set; get; }
 
         public virtual Post Post { set; get; }
 
